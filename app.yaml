@@ -1,0 +1,35 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /resources
+  static_dir: resources
+
+- url: /list
+  static_files: list.html
+  upload: list.html
+
+- url: /schedule
+  static_files: schedule.html
+  upload: schedule.html
+
+- url: /guideline
+  static_files: guideline.html
+  upload: guideline.html
+
+- url: /battle
+  static_files: battle.html
+  upload: battle.html
+
+- url: /result
+  static_files: result.html
+  upload: result.html
+
+- url: /comment
+  static_files: comment.html
+  upload: comment.html
